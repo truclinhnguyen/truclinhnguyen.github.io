@@ -1,0 +1,73 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+#outer {
+	width: 1100px;
+	height: 1300px;
+	margin: 0 auto;
+	background-color:black;
+	}
+#header{
+	width: 1100px;
+	height: 100px;
+}
+#header img{
+	width: 100px;
+	margin-left: 10px;
+}
+#menu{
+	width: 1100px;
+	height: 50px;
+	background: black;
+	margin-right: 30px;
+	}
+#menu ul li{
+	list-style: none;
+	
+}
+#menu ul li{
+	float: left;
+	margin-left: 60px;
+	line-height: 50px;
+}
+#menu ul li a{
+	color:#D2AD58 ;
+	text-decoration: none;
+	}
+#menu ul li:hover{
+	background: #E08587;
+	border-radius: 10px;
+}
+#content {
+	width: 1100px;
+	height: 1100px;
+	background-color: black;
+}
+#content img{ 
+	width: 1100px;
+}
+#content .box{
+	width: 350px;
+	height: 350px;
+	float:left;
+	margin-left: 12px;
+	margin-top: 6px;
+	color:#D2AD58
+}
+#content .box img{
+	width: 350px;}
+
+#foter{
+	width: 1100px;
+    height: 50px;
+	background-color: #D2AD58;
+}
+#foter .mika img{
+	width: 40px;
+	float: right;
+	margin-left: 25px;
+}
+
